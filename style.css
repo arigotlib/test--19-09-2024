@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+header{
+    background-color: #143C87;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+}
+h1{
+    color: #143C87;
+    font-size: 50px;
+    text-align: center;
+    padding: 20px;
+}
+.containerPlayers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.playersCard{
+    background-color: #F0F0F0;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+.playersCard h2{
+    font-size: 20px;
+    color: #143C87;
+}
+.containerSearch{
+    background-color: #F0F0F0;
+    color: black;
+    width: 50%;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+#categorySelect{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+}
+   
+.sliderInput{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.slider{
+    /* -webkit-appearance: none; */
+    width: 100%;
+    height: 15px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align:right;
+}
+#footer {
+    bottom: 0;
+    width: 100%;
+    height:10px;  
+    padding: 20px;
+    text-align: center;
+    background-color: #143C87;      
+    color:wheat;   
+  }
+
+

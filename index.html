@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>NBA FANTASY 2014-2024</header>
+    <h1>My Fantasy Team</h1>
+    <div class="containerPlayers">
+        <div class="playersCard" id="pointGuardPlayerCard">
+            <h2>Point Guard</h2>
+        </div>
+        <div class="playersCard" id="shootingGuardPlayerCard">
+            <h2>Shooting Guard</h2>
+        </div>
+        <div class="playersCard" id="smallForwardPlayerCard">
+            <h2>Small Forward</h2>
+        </div>
+        <div class="playersCard" id="powerForwardPlayerCard">
+            <h2>Power Forward</h2>
+        </div>
+        <div class="playersCard" id="centerPlayerCard">
+            <h2>Center</h2>
+        </div>
+    </div>
+    <div class="containerSearch" id="searchCard">
+    <div  id="formSearch">
+        <div  id="categorySelect" >
+          <select id="positionInput">
+           <option value="pointGuard">PG</option>
+           <option value="shootingGuard">SG</option>
+           <option value="smallForward">SF</option>
+           <option value="powerForward">PF</option>
+           <option value="center">C</option>
+          </select>
+       </div>
+       <div class="sliderInput">
+         <label for="points">Points (between 0 and 20,000)</label>
+         <br>
+         <input type="range"  class="slider" id="pointsInput"  min="0" max="20000">
+       </div>
+       <div class="sliderInput">
+         <label for="twoPercent">Two Percent (between 0 and 100)</label>
+         <br>
+         <input type="range" class="slider" id="twoPercentInput" min="0" max="100">
+       </div>
+       <div class="sliderInput">
+         <label for="threePercent">Three Percent (between 0 and 100)</label> 
+         <br>
+         <input type="range"  class="slider" id="threePercentInput" min="0" max="100"></label>
+       </div>
+       <div id="sadmitInput">
+        <button id="submitBtn">Search Player</button>
+       </div>
+      </div>
+     <table>
+        <thead>
+          <tr>
+            <th>Player</th>
+            <th>Position</th>
+            <th>Points</th>
+            <th>FG%</th>
+            <th>3P%</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody id="tbody">
+        </tbody>
+     </table>
+   </div>
+    <footer id="footer">© 2024 Ari Gotlib. All rights reserved</footer>
+</body>
+
+</html>
